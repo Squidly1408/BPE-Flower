@@ -1,0 +1,236 @@
+/* Basic styling */
+body {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 5vw;
+    margin: 0%;
+}
+
+/* Flower and sliders container */
+.flower-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+
+/* Larger flower container to ensure no clipping */
+.flower-container-wrapper {
+    width: 50vw;
+    /* Larger container */
+
+    /* Larger container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* SVG Flower */
+svg {
+    width: 60vw;
+    /* Increase maximum size */
+    transition: transform 0.3s ease;
+}
+
+
+/* Individual petal class colors */
+.petal1 {
+    fill: #8A2BE2;
+    transform-origin: center;
+}
+
+/* Social Reasoning (Purple) */
+.petal2 {
+    fill: #FF6347;
+    transform-origin: center;
+}
+
+/* Knowing How to Learn (Orange) */
+.petal3 {
+    fill: #FF1493;
+    transform-origin: center;
+}
+
+/* Personal Qualities (Pink) */
+.petal4 {
+    fill: #40E0D0;
+    transform-origin: center;
+}
+
+/* Quantitative Reasoning (Blue) */
+.petal5 {
+    fill: #ADFF2F;
+    transform-origin: center;
+}
+
+/* Communication (Green) */
+.petal6 {
+    fill: #FFD700;
+    transform-origin: center;
+}
+
+
+/* Sliders container */
+.sliders {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* Sliders styling */
+.slider-label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.slider {
+    width: 200px;
+}
+
+#slider1 {
+    accent-color: #8A2BE2;
+
+}
+
+#slider2 {
+    accent-color: #FF6347;
+}
+
+#slider3 {
+    accent-color: #FF1493;
+}
+
+#slider4 {
+    accent-color: #40E0D0;
+}
+
+#slider5 {
+    accent-color: #ADFF2F;
+}
+
+#slider6 {
+    accent-color: #FFD700;
+}
+
+/* Input boxes container */
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure inputs wrap to a new row */
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.input-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+/* Input boxes styling */
+.input-box {
+    width: 20vw;
+    padding: 15px;
+
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    min-height: 100px;
+    resize: vertical;
+    word-break: keep-all;
+    line-break: normal;
+    /* Allow vertical resizing */
+}
+
+/* Border color based on petal */
+#input-box1 {
+    border-color: #8A2BE2;
+}
+
+/* Social Reasoning (Purple) */
+#input-box2 {
+    border-color: #FF6347;
+}
+
+/* Knowing How to Learn (Orange) */
+#input-box3 {
+    border-color: #FF1493;
+}
+
+/* Personal Qualities (Pink) */
+#input-box4 {
+    border-color: #40E0D0;
+}
+
+/* Quantitative Reasoning (Blue) */
+#input-box5 {
+    border-color: #ADFF2F;
+}
+
+/* Communication (Green) */
+#input-box6 {
+    border-color: #FFD700;
+}
+
+/* Empirical Reasoning (Yellow) */
+
+/* Styling the input boxes when they are focused */
+.input-box:focus {
+    outline: none;
+    border-color: #555;
+}
+
+/* Titles for each input */
+.input-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.plug {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+p {
+    color: #adadad;
+}
+
+.plug-logo {
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .flower-container {
+        display: inline-block;
+    }
+
+    .input-box {
+        width: 50vw;
+    }
+}
