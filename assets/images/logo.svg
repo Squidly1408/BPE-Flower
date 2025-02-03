@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 374.999991" id="flower">
+                    <g class="rings">
+                        <!-- Rings behind the flower -->
+                        <circle cx="187.5" cy="187.5" r="60" stroke="#adadad" stroke-width="5" fill="none"/>
+                        <circle cx="187.5" cy="187.5" r="85" stroke="#adadad" stroke-width="5" fill="none"/>
+                        <circle cx="187.5" cy="187.5" r="115" stroke="#adadad" stroke-width="5" fill="none"/>
+                        <circle cx="187.5" cy="187.5" r="145" stroke="#adadad" stroke-width="5" fill="none"/>
+                        <circle cx="187.5" cy="187.5" r="175" stroke="#adadad" stroke-width="5" fill="none"/>
+                    </g>
+                    <g class="petals">
+                        <path class="petal1" d="M 98.628906 184.191406 L 183.085938 184.761719 L 141.351562 111.332031 C 123.117188 79.25 77.007812 78.777344 58.183594 110.515625 C 38.234375 142.355469 60.996094 184.007812 98.628906 184.191406 Z" style="transform: scale(1);"/>
+                        <path class="petal2" d="M 146.042969 108.664062 L 187.78125 182.09375 L 230.503906 109.238281 C 249.601562 76.808594 225.460938 35.941406 187.898438 36.789062 C 150.996094 36.722656 127.8125 76.582031 146.042969 108.664062 Z"/>
+                        <path class="petal3" d="M 56.511719 261.203125 C 74.160156 294.285156 121.5 295.25 140.433594 262.832031 C 140.433594 262.832031 183.050781 190.15625 183.050781 190.15625 L 98.804688 189.589844 C 61.90625 189.339844 38.4375 229.035156 56.511719 261.203125 Z" style="transform: scale(1);"/>
+                        <path class="petal4" d="M 229.441406 266.316406 L 187.707031 192.886719 L 144.984375 265.746094 C 125.882812 298.171875 150.027344 339.042969 187.589844 338.195312 C 224.488281 338.261719 247.675781 298.398438 229.441406 266.316406 Z"/>
+                        <path class="petal5" d="M 317.304688 264.46875 C 337.25 232.628906 314.488281 190.972656 276.855469 190.792969 C 276.855469 190.792969 192.398438 190.222656 192.398438 190.222656 L 234.132812 263.652344 C 252.367188 295.730469 298.480469 296.207031 317.304688 264.46875 Z"/>
+                        <path class="petal6" d="M 235.097656 112.074219 L 192.4375 184.824219 L 276.769531 185.394531 C 314.003906 185.683594 337.441406 145.207031 318.667969 113.078125 C 300.667969 80.507812 253.898438 79.9375 235.097656 112.074219 Z"/>
+                    </g>
+                <style>
+        .petal1 { fill: #8A2BE2; transform-origin: center; }
+        .petal2 { fill: #FF6347; transform-origin: center; }
+        .petal3 { fill: #FF1493; transform-origin: center; }
+        .petal4 { fill: #40E0D0; transform-origin: center; }
+        .petal5 { fill: #ADFF2F; transform-origin: center; }
+        .petal6 { fill: #FFD700; transform-origin: center; }
+    </style></svg>
