@@ -18,6 +18,40 @@ body {
     margin: 0%;
 }
 
+.save-graph-button {
+    background-color: #4CAF50;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 125px;
+}
+
+.save-page-button {
+    background-color: #4CAF50;
+    position: fixed;
+    top: 50px;
+    left: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 125px;
+}
+
 /* Flower and sliders container */
 .flower-container {
     display: inline-flex;
@@ -42,6 +76,7 @@ body {
 /* SVG Flower */
 svg {
     width: 60vw;
+    background: transparent;
     /* Increase maximum size */
     transition: transform 0.3s ease;
 }
@@ -92,6 +127,7 @@ svg {
     gap: 15px;
 }
 
+
 /* Sliders styling */
 .slider-label {
     margin-bottom: 5px;
@@ -100,31 +136,7 @@ svg {
 
 .slider {
     width: 200px;
-}
-
-#slider1 {
-    accent-color: #8A2BE2;
-
-}
-
-#slider2 {
-    accent-color: #FF6347;
-}
-
-#slider3 {
-    accent-color: #FF1493;
-}
-
-#slider4 {
-    accent-color: #40E0D0;
-}
-
-#slider5 {
-    accent-color: #ADFF2F;
-}
-
-#slider6 {
-    accent-color: #FFD700;
+    accent-color: #ffffff;
 }
 
 /* Input boxes container */
@@ -143,6 +155,54 @@ svg {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
+}
+
+#input-box-wrapper1 {
+    align-items: baseline;
+    background-color: #8A2BE2;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#input-box-wrapper2 {
+    align-items: baseline;
+    background-color: #FF6347;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#input-box-wrapper3 {
+    align-items: baseline;
+    background-color: #FF1493;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#input-box-wrapper4 {
+    align-items: baseline;
+    background-color: #40E0D0;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#input-box-wrapper5 {
+    align-items: baseline;
+    background-color: #ADFF2F;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#input-box-wrapper6 {
+    align-items: baseline;
+    background-color: #FFD700;
+    border-radius: 18px;
+    padding: 8px;
+    color: #ffffff;
 }
 
 /* Input boxes styling */

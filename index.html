@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Picture Education Flower</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
-<body>
+<body id="body">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <div class="main-container">
         <h1 class="heading">Big Picture Education Flower</h1>
         <div class="flower-container-wrapper">
             <div class="flower-container">
+                <button id="saveGraphButton" class="save-graph-button">Save graph</button>
                 <!-- SVG Flower -->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 375 374.999991">
+                    viewBox="0 0 375 374.999991" id="flower">
                     <g class="rings">
                         <!-- Rings behind the flower -->
                         <circle cx="187.5" cy="187.5" r="60" stroke="#adadad" stroke-width="5" fill="none" />
@@ -41,7 +45,7 @@
                 </svg>
                 <!-- Input Boxes -->
                 <div class="input-container">
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper1">
                         <div class="input-title">Social Reasoning (Purple)</div>
 
                         <div class="slider-container">
@@ -53,7 +57,7 @@
                             id="input-box1">Students at this level make informed and deliberate decisions about their learning progress.</textarea>
 
                     </div>
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper2">
                         <div class="input-title">Knowing How to Learn (Orange)</div>
                         <div class="slider-container">
                             <input type="range" id="slider2" class="slider" min="50" max="150" value="100" step="25">
@@ -64,7 +68,7 @@
                             id="input-box2">Students at this level make informed and deliberate decisions about their learning progress.</textarea>
 
                     </div>
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper3">
                         <div class="input-title">Personal Qualities (Pink)</div>
                         <div class="slider-container">
                             <input type="range" id="slider3" class="slider" min="50" max="150" value="100" step="25">
@@ -75,7 +79,7 @@
                             id="input-box3">Students at this level are developing increased personal, physical and social awareness and are able to analyse their strengths and draw from their experience to prioritise what is required for personal growth.</textarea>
 
                     </div>
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper4">
                         <div class="input-title">Quantitative Reasoning (Blue)</div>
                         <div class="slider-container">
                             <input type="range" id="slider4" class="slider" min="50" max="150" value="100" step="25">
@@ -86,7 +90,7 @@
                             id="input-box4">Students at this level make use of their growing repertoire of mathematical strategies to explore unfamiliar situations.</textarea>
 
                     </div>
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper5">
                         <div class="input-title">Communication (Green)</div>
                         <div class="slider-container">
                             <input type="range" id="slider5" class="slider" min="50" max="150" value="100" step="25">
@@ -96,7 +100,7 @@
                             placeholder="Explain your reasoning for your choice of level"
                             id="input-box5">Students at this level communicate with presence and purpose.</textarea>
                     </div>
-                    <div class="input-box-wrapper">
+                    <div class="input-box-wrapper" id="input-box-wrapper6">
                         <div class="input-title">Empirical Reasoning (Yellow)</div>
                         <div class="slider-container">
                             <input type="range" id="slider6" class="slider" min="50" max="150" value="100" step="25">

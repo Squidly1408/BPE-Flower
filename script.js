@@ -67,3 +67,36 @@ sliders.forEach((slider, index) => {
         inputBoxes[index].innerHTML = inputBoxData[index][boundedLevel];
     });
 });
+
+document.getElementById('saveGraphButton').addEventListener('click', function() {
+    // Get the SVG element
+    var svgElement = document.getElementById('flower');
+    
+    // Serialize the SVG to a string
+    var svgData = new XMLSerializer().serializeToString(svgElement);
+
+    // Add the CSS styles directly to the SVG
+    var styles = `
+        .petal1 { fill: #8A2BE2; transform-origin: center; }
+        .petal2 { fill: #FF6347; transform-origin: center; }
+        .petal3 { fill: #FF1493; transform-origin: center; }
+        .petal4 { fill: #40E0D0; transform-origin: center; }
+        .petal5 { fill: #ADFF2F; transform-origin: center; }
+        .petal6 { fill: #FFD700; transform-origin: center; }
+    `;
+    
+    // Add styles as a <style> element inside the SVG
+    var styleElement = `<style>${styles}</style>`;
+    svgData = svgData.replace('</svg>', styleElement + '</svg>');
+
+    // Create a Blob from the SVG data
+    var blob = new Blob([svgData], { type: 'image/svg+xml' });
+
+    // Create a link to trigger the download
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'flower.svg';
+
+    // Trigger the download
+    link.click();
+});
