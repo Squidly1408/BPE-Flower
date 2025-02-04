@@ -8,6 +8,10 @@ This is a repo for a website that was designed to fix an issue that I faced whil
 ## International Big Picture Learning Credential (IBPLC)
 ![IBPLC](https://www.researchgate.net/profile/Bill-Lucas/publication/350887830/figure/fig3/AS:1012885874540547@1618502219484/Big-Picture-Education-Australia-Profile.png)
 
+## Wireframe of the app
+![wireframe](./assets/images/wireframe.png)
+
+
 \
 \
 \
