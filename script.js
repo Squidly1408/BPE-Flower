@@ -5,26 +5,13 @@ const val = document.querySelectorAll('.slider-val');
 const inputBoxes = document.querySelectorAll('.input-box');
 
 const inputBoxData = [
-    {
-        1: 'Students at this level can describe the social frameworks and systems they are embedded in.',
-        2: 'Students at this level recognise that there are different ways to investigate social issues.',
-        3: 'Students at this level investigate social issues in depth by applying a range of tools.',
-        4: 'Students at this level recognise the connections and distinctions between social issues through systematic investigation.',
-        5: 'Students at this level define and analyse social issues using relevant frameworks and perspectives and take responsible social action.'
-    },
+
     {
         1: 'Students at this level begin to take responsibility for planning their inquiries and are developing strategies to explore their interests.',
         2: 'Students at this level take initiative and frame inquiry questions around their area of interest.',
         3: 'Students at this level make informed and deliberate decisions about their learning progress.',
         4: 'Students at this level are highly motivated and strategic about their learning.',
         5: 'Students at this level are open to ideas that challenge their current thinking and they pursue new knowledge to develop improved solutions.'
-    },
-    {
-        1: 'Students at this level are starting to develop awareness of themselves and their potential, and to pursue opportunities for personal growth.',
-        2: 'Students at this level can identify their strengths and challenges and make decisions to support their personal growth with increasing self-awareness.',
-        3: 'Students at this level are developing increased personal, physical and social awareness and are able to analyse their strengths and draw from their experience to prioritise what is required for personal growth.',
-        4: 'Students at this level show sense of self and strength of character and appreciate the need for sustained effort.',
-        5: 'Students at this level are confident and insightful, holding themselves accountable for their actions.'
     },
     {
         1: 'Students at this level are willing to have a go at using mathematics they are familiar with to understand situations.',
@@ -34,6 +21,13 @@ const inputBoxData = [
         5: 'Students at this level understand the systematic nature of mathematics and the power of it in modelling the physical or social environment.'
     },
     {
+        1: 'Students at this level notice and explore phenomena and ideas, making connections to their own experience.',
+        2: 'Students at this level ask questions and plan and undertake processes to explore their areas of interest.',      
+        3: 'Students at this level develop inquiry questions related to their interests and conduct investigations to test their predictions.',
+        4: 'Students at this level pose and test hypotheses, applying investigative methods to clarify and explore their new understandings.',
+        5: 'Students at this level systematically refine hypotheses to develop authoritative knowledge from their investigations.'
+    },
+    {
         1: 'Students at this level use familiar communication tools in order to convey their ideas and opinions.',
         2: 'Students at this level are prepared to try out new modes of communication in order to expand their repertoire.',
         3: 'Students at this level communicate with presence and purpose.',
@@ -41,12 +35,19 @@ const inputBoxData = [
         5: 'Students at this level use a blend of tools to design and refine their communication in order to deliver a compelling message that expands perspectives.'
     },
     {
-        1: 'Students at this level notice and explore phenomena and ideas, making connections to their own experience.',
-        2: 'Students at this level ask questions and plan and undertake processes to explore their areas of interest.',      
-        3: 'Students at this level develop inquiry questions related to their interests and conduct investigations to test their predictions.',
-        4: 'Students at this level pose and test hypotheses, applying investigative methods to clarify and explore their new understandings.',
-        5: 'Students at this level systematically refine hypotheses to develop authoritative knowledge from their investigations.'
-    }
+        1: 'Students at this level can describe the social frameworks and systems they are embedded in.',
+        2: 'Students at this level recognise that there are different ways to investigate social issues.',
+        3: 'Students at this level investigate social issues in depth by applying a range of tools.',
+        4: 'Students at this level recognise the connections and distinctions between social issues through systematic investigation.',
+        5: 'Students at this level define and analyse social issues using relevant frameworks and perspectives and take responsible social action.'
+    },
+    {
+        1: 'Students at this level are starting to develop awareness of themselves and their potential, and to pursue opportunities for personal growth.',
+        2: 'Students at this level can identify their strengths and challenges and make decisions to support their personal growth with increasing self-awareness.',
+        3: 'Students at this level are developing increased personal, physical and social awareness and are able to analyse their strengths and draw from their experience to prioritise what is required for personal growth.',
+        4: 'Students at this level show sense of self and strength of character and appreciate the need for sustained effort.',
+        5: 'Students at this level are confident and insightful, holding themselves accountable for their actions.'
+     },
 ];
 
 sliders.forEach((slider, index) => {

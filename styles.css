@@ -83,38 +83,39 @@ svg {
 
 
 /* Individual petal class colors */
+/* PQ */
 .petal1 {
-    fill: #8A2BE2;
+    fill: rgba(255, 99, 132, 1);
     transform-origin: center;
 }
 
-/* Social Reasoning (Purple) */
+/* QR */
 .petal2 {
-    fill: #FF6347;
+    fill: rgba(54, 162, 235, 1);
     transform-origin: center;
 }
 
-/* Knowing How to Learn (Orange) */
+/* ER */
 .petal3 {
-    fill: #FF1493;
+    fill: rgba(242, 242, 42, 1);
     transform-origin: center;
 }
 
-/* Personal Qualities (Pink) */
+/* Comm */
 .petal4 {
-    fill: #40E0D0;
+    fill: rgba(75, 192, 192, 1);
     transform-origin: center;
 }
 
-/* Quantitative Reasoning (Blue) */
+/* SR */
 .petal5 {
-    fill: #ADFF2F;
+    fill: rgba(153, 102, 255, 1);
     transform-origin: center;
 }
 
-/* Communication (Green) */
+/* KHTL */
 .petal6 {
-    fill: #FFD700;
+    fill: rgba(255, 159, 64, 1);
     transform-origin: center;
 }
 
@@ -159,7 +160,7 @@ svg {
 
 #input-box-wrapper1 {
     align-items: baseline;
-    background-color: #8A2BE2;
+    background-color: rgba(255, 99, 132, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -167,7 +168,7 @@ svg {
 
 #input-box-wrapper2 {
     align-items: baseline;
-    background-color: #FF6347;
+    background-color: rgba(54, 162, 235, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -175,7 +176,7 @@ svg {
 
 #input-box-wrapper3 {
     align-items: baseline;
-    background-color: #FF1493;
+    background-color: rgba(242, 242, 42, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -183,7 +184,7 @@ svg {
 
 #input-box-wrapper4 {
     align-items: baseline;
-    background-color: #40E0D0;
+    background-color: rgba(75, 192, 192, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -191,7 +192,7 @@ svg {
 
 #input-box-wrapper5 {
     align-items: baseline;
-    background-color: #ADFF2F;
+    background-color: rgba(153, 102, 255, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -199,7 +200,7 @@ svg {
 
 #input-box-wrapper6 {
     align-items: baseline;
-    background-color: #FFD700;
+    background-color: rgba(255, 159, 64, 1);
     border-radius: 18px;
     padding: 8px;
     color: #ffffff;
@@ -223,32 +224,32 @@ svg {
 
 /* Border color based on petal */
 #input-box1 {
-    border-color: #8A2BE2;
+    border-color: rgba(255, 99, 132, 1);
 }
 
 /* Social Reasoning (Purple) */
 #input-box2 {
-    border-color: #FF6347;
+    border-color: rgba(54, 162, 235, 1);
 }
 
 /* Knowing How to Learn (Orange) */
 #input-box3 {
-    border-color: #FF1493;
+    border-color: rgba(242, 242, 42, 1);
 }
 
 /* Personal Qualities (Pink) */
 #input-box4 {
-    border-color: #40E0D0;
+    border-color: rgba(75, 192, 192, 1);
 }
 
 /* Quantitative Reasoning (Blue) */
 #input-box5 {
-    border-color: #ADFF2F;
+    border-color: rgba(153, 102, 255, 1);
 }
 
 /* Communication (Green) */
 #input-box6 {
-    border-color: #FFD700;
+    border-color: rgba(255, 159, 64, 1);
 }
 
 /* Empirical Reasoning (Yellow) */
