@@ -106,7 +106,8 @@ svg {
 /* Input boxes container */
 .input-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
     justify-content: space-around;
     width: 100%;
     gap: 10px;
@@ -170,7 +171,7 @@ svg {
 
 /* Input boxes styling */
 .input-box {
-    width: auto;
+    width: 100%;
     border-radius: 10px;
     padding: auto;
     font-size: 16px;
@@ -226,4 +227,16 @@ svg {
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .input-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .input-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
