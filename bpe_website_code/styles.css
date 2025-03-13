@@ -19,7 +19,6 @@ body {
 }
 
 
-
 /* Flower and sliders container */
 .flower-container {
     display: inline-block;
@@ -32,9 +31,6 @@ body {
 /* Larger flower container to ensure no clipping */
 .flower-container-wrapper {
     width: 50vw;
-    /* Larger container */
-
-    /* Larger container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +41,6 @@ body {
 svg {
     width: 60vw;
     background: transparent;
-    /* Increase maximum size */
     transition: transform 0.3s ease;
 }
 
@@ -112,8 +107,6 @@ svg {
 .input-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    flex-wrap: wrap;
-    /* Ensure inputs wrap to a new row */
     justify-content: space-around;
     width: 100%;
     gap: 10px;
@@ -129,7 +122,6 @@ svg {
 
 #input-box-wrapper1 {
     align-items: center;
-
     background-color: rgba(255, 99, 132, 1);
     border-radius: 18px;
     padding: 8px;
@@ -178,10 +170,9 @@ svg {
 
 /* Input boxes styling */
 .input-box {
-    width: 20vw;
-    padding: 15px;
-
+    width: auto;
     border-radius: 10px;
+    padding: auto;
     font-size: 16px;
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
@@ -189,40 +180,39 @@ svg {
     resize: vertical;
     word-break: keep-all;
     line-break: normal;
-    /* Allow vertical resizing */
 }
 
-/* Border color based on petal */
+
 #input-box1 {
     border-color: rgba(255, 99, 132, 1);
 }
 
-/* Social Reasoning (Purple) */
+
 #input-box2 {
     border-color: rgba(54, 162, 235, 1);
 }
 
-/* Knowing How to Learn (Orange) */
+
 #input-box3 {
     border-color: rgba(242, 242, 42, 1);
 }
 
-/* Personal Qualities (Pink) */
+
 #input-box4 {
     border-color: rgba(75, 192, 192, 1);
 }
 
-/* Quantitative Reasoning (Blue) */
+
 #input-box5 {
     border-color: rgba(153, 102, 255, 1);
 }
 
-/* Communication (Green) */
+
 #input-box6 {
     border-color: rgba(255, 159, 64, 1);
 }
 
-/* Empirical Reasoning (Yellow) */
+
 
 /* Styling the input boxes when they are focused */
 .input-box:focus {
@@ -236,41 +226,4 @@ svg {
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
-}
-
-
-.plug {
-    text-align: center;
-    align-items: center;
-    margin-top: 20px;
-    display: inline-flex;
-}
-
-p {
-    color: #adadad;
-}
-
-.plug-logo {
-    width: 25px;
-    height: 25px;
-}
-
-.card {
-    border-radius: 18px;
-    border-color: #adadad;
-    border-style: solid;
-    border-width: 4px;
-    width: 70vw;
-    height: 40vws;
-}
-
-
-@media screen and (max-width: 1000px) {
-    .flower-container {
-        display: inline-block;
-    }
-
-    .input-box {
-        width: 50vw;
-    }
 }
