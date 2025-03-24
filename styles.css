@@ -305,4 +305,8 @@ p {
     .input-box {
         width: 50vw;
     }
+
+    .helpers {
+        display: inline-block;
+    }
 }
